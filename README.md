@@ -8,3 +8,7 @@ This project is a basic clone of WhatsApp, called "Chatter," built using Jetpack
 * Message Bubbles: Messages are displayed in alternating left-right alignment, similar to WhatsApp's chat design.
 
   ## File Overview
+ MainActivity.kt
+This file serves as the entry point of the app and is responsible for setting up the navigation between different screens.
+* NavController Setup: Manages navigation between screens like ChatScreen, CallsScreen, and StatusScreen.
+* App Theme: Initializes the app's visual theme, such as the primary color scheme and overall look.
