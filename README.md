@@ -8,9 +8,4 @@ This project is a basic clone of WhatsApp, called "Chatter," built using Jetpack
 * Message Bubbles: Messages are displayed in alternating left-right alignment, similar to WhatsApp's chat design.
 
 ## File Overview
-  ### MainActivity.kt
-    * Purpose: Manages the UI for displaying the chat screen.
-    * Details: It shows the list of messages using LazyColumn and allows users to type 
-    messages in a TextField. The UI supports sending text messages and uses SampleData
-    to store chat entries. It currently only supports sending text messages, with
-    functionality for attaching files and images pending.
+ * MainActivity.kt: Handles the user interface for the chat screen. It displays the list of chat messages and allows the user to input and send text messages. Media attachments and additional features will be added in the future.
