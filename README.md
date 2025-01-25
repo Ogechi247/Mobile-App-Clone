@@ -20,4 +20,5 @@ This file contains the main UI for the chat functionality. It includes the Botto
    * Send Button: A floating action button at the bottom-right that sends the typed message when clicked.
  * ChatListItem Composable: Displays the list of chat messages in a two-column layout. Each message alternates between left (incoming) and right (outgoing) alignment.
    * Message Layout: Messages are shown in rounded corners with timestamps.
-   * Time Formatting: Each message is timestamped using a 12-hour clock (e.g., hh:mm a).
+   * Time Formatting: Each message is timestamped using a 12-hour clock.
+### CallsScreen.kt
