@@ -9,16 +9,5 @@ This project is a basic clone of WhatsApp, called "Chatter," built using Jetpack
 
 ## File Overview
   ###  MainActivity.kt
-This file serves as the entry point of the app and is responsible for setting up the navigation between different screens.
-* NavController Setup: Manages navigation between screens like ChatScreen, CallsScreen, and StatusScreen.
-* App Theme: Initializes the app's visual theme, such as the primary color scheme and overall look.
-
- ### ChatScreen.kt
-This file contains the main UI for the chat functionality. It includes the BottomDesign composable for sending messages and the ChatListItem composable for displaying messages.
- * BottomDesign Composable: A bottom row with a text field, emoji, attach, and camera icons. Users can type and send text messages.
-   * Text Field: Lets users type messages with an optional placeholder text. The keyboard type is set to "Text," and it supports multi-line input.
-   * Send Button: A floating action button at the bottom-right that sends the typed message when clicked.
- * ChatListItem Composable: Displays the list of chat messages in a two-column layout. Each message alternates between left (incoming) and right (outgoing) alignment.
-   * Message Layout: Messages are shown in rounded corners with timestamps.
-   * Time Formatting: Each message is timestamped using a 12-hour clock.
-### CallsScreen.kt
+    * Purpose: Manages the UI for displaying the chat screen.
+    * Details: It shows the list of messages using LazyColumn and allows users to type messages in a TextField. The UI supports sending text messages and uses SampleData to store chat entries. It currently only supports sending text messages, with functionality for attaching files and images pending.
